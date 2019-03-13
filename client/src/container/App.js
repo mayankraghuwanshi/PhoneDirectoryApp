@@ -7,7 +7,7 @@ class App extends Component {
     constructor(){
         super()
         this.state = {
-            list : [{name : "mayank", number : "276724"}],
+            list : [],
             showContact : false
         }
         this.save = this.save.bind(this)
