@@ -14,7 +14,7 @@ class App extends Component {
         this.changeShow = this.changeShow.bind(this)
     }
   save(updatedList){
-      this.setState({list : updatedList})
+      this.setState({list : updatedList , showContact : true})
   }
   changeShow(){
       const showContact = !this.state.showContact
